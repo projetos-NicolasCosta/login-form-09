@@ -10,7 +10,7 @@ body {
   background-color: #AEE8FE; }
 
 p {
-  color: #b3b3b3;
+  color: #000000;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6,
@@ -31,7 +31,7 @@ h2 {
   font-size: 20px; }
 
 .form-block {
-  background: #fff;
+  background: #F27405;
   padding: 60px;
   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1); 
@@ -93,7 +93,7 @@ h2 {
   background-position: center; }
 
 .content a {
-  color: #888;
+  color: #e60c0c;
   text-decoration: underline; }
 
 .content .btn {
@@ -214,3 +214,21 @@ h2 {
 .control--checkbox input:disabled:checked ~ .control__indicator {
   background-color: #7e0cf5;
   opacity: .2; }
+
+.grama{
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  width:100%;
+}
+
+.arvore{
+  position: fixed;
+}
+
+.seta{
+  position: fixed;
+  top: 0;
+  left: 1;
+  padding: 2%;
+}
